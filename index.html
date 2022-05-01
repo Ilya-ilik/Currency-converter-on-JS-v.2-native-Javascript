@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Конвертер валют версия 2
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body bgcolor="#FFDB8B">
+    <h1 align="center">Money converter</h1>
+
+    <!--панель перевода доллара в рубль -->
+    <p align="center">
+        <label>USD</label>
+        <input class="input1" type="number" id="inputdol" placeholder="USD" oninput="moneyConverter1(this.value)"
+            onchange="moneyConverter1(this.value)">
+        Rub:<span id="outputrub1"></span>
+    </p>
+
+    <!--панель перевода евро в рубль -->
+    <p align="center">
+        <label>EUR</label>
+        <input class="input1" type="number" id="inputdol" placeholder="EUR" oninput="moneyConverter2(this.value)"
+            onchange="moneyConverter2(this.value)">
+        Rub:<span id="outputrub2"></span>
+    </p>
+
+    <!--панель перевода юаня в рубль -->
+    <p align="center">
+        <label>CNY</label>
+        <input class="input1" type="number" id="inputdol" placeholder="CNY" oninput="moneyConverter3(this.value)"
+            onchange="moneyConverter3(this.value)">
+        Rub:<span id="outputrub3"></span>
+    </p>
+</body>
+
+</html>
